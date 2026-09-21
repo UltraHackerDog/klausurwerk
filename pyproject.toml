@@ -1,0 +1,21 @@
+[project]
+name = "klausurwerk"
+version = "0.1.0"
+description = "Private, local exam-revision platform over a personal collection of past papers."
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "pymupdf>=1.24",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "httpx>=0.27",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

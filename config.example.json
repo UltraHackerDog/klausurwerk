@@ -1,0 +1,14 @@
+{
+  "collection_root": "/path/to/your/papers",
+  "user_id": "local",
+  "current_semester": null,
+  "scan_max_files": 50000,
+  "my_modules": [],
+  "_example_my_modules": [
+    {
+      "name": "Beispielfach",
+      "subject": "Beispielfach",
+      "lecturers": ["Prof. Dr. A. Beispiel"]
+    }
+  ]
+}

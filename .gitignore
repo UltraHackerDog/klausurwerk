@@ -1,0 +1,18 @@
+# App state (index, progress, notes) — never committed.
+data/
+data.nosync/
+# Personal settings (modules, lecturers, local paths): copy config.example.json.
+config.json
+# Private study material must never enter git.
+*.pdf
+*.PDF
+*.apkg
+*.zip
+# Editor/agent launch settings hold local absolute paths.
+.claude/
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
